@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Fotosíntesis: Input - Procesamiento - Output</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<h1>Modelo Input → Procesamiento → Output</h1>
+<h2>Ejemplo: Fotosíntesis</h2>
+
+
+<div class="container">
+
+
+<h3>🌞 INPUT (Entradas)</h3>
+<label>Luz solar:</label>
+<input type="number" id="luz" placeholder="Cantidad de luz">
+
+
+<label>Agua:</label>
+<input type="number" id="agua" placeholder="Cantidad de agua">
+
+
+<label>CO₂:</label>
+<input type="number" id="co2" placeholder="Cantidad de CO2">
+
+
+<button onclick="procesarFotosintesis()">Procesar</button>
+
+
+<h3>⚙️ PROCESAMIENTO</h3>
+<p id="proceso">Esperando datos...</p>
+
+
+<h3>🌱 OUTPUT (Resultado)</h3>
+<p id="resultado">---</p>
+
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
